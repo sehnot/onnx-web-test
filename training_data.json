@@ -1,0 +1,29 @@
+[
+  {
+    "input": "John Doe\nSenior Developer\nTechCorp Inc.\nwww.techcorp.com\n+1-800-555-1234",
+    "output": {
+      "name": "John Doe",
+      "company": "TechCorp Inc.",
+      "website": "www.techcorp.com",
+      "phone": "+1-800-555-1234"
+    }
+  },
+  {
+    "input": "Jane Smith\nMarketing Manager\nCreative Solutions Ltd.\nwww.creativesolutions.com\n+44-20-7946-0958",
+    "output": {
+      "name": "Jane Smith",
+      "company": "Creative Solutions Ltd.",
+      "website": "www.creativesolutions.com",
+      "phone": "+44-20-7946-0958"
+    }
+  },
+  {
+    "input": "Dr. Max Müller\nCEO\nInnovatech AG\nwww.innovatech.de\n+49-89-1234-5678",
+    "output": {
+      "name": "Dr. Max Müller",
+      "company": "Innovatech AG",
+      "website": "www.innovatech.de",
+      "phone": "+49-89-1234-5678"
+    }
+  }
+]
