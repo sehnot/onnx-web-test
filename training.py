@@ -5,17 +5,13 @@ import torch.nn as nn
 import torch.optim as optim
 
 # **Zeichen-zu-Index-Mapping erstellen**
-def create_vocab(data_file):
-    with open(data_file, 'r') as f:
-        data = json.load(f)
-    # Sammle alle Zeichen aus Eingabe und Zielwerten
-    all_text = "".join([
-        d["input"] + d["output"]["name"] + d["output"]["company"] +
-        d["output"]["website"] + d["output"]["phone"] for d in data
-    ])
-    unique_chars = sorted(set(all_text))  # Alle eindeutigen Zeichen
-    char_to_index = {char: idx for idx, char in enumerate(unique_chars)}
-    index_to_char = {idx: char for char, idx in char_to_index.items()}
+def create_vocab(all_text=None):
+    char_to_index = {}
+    index_to_char = {}
+    for i in range(256):  # 256 is the number of ISO-8859-1 characters
+        char = chr(i)
+        char_to_index[char] = i
+        index_to_char[i] = char
     return char_to_index, index_to_char
 
 # **Dataset-Klasse**
@@ -38,6 +34,7 @@ class SignatureDataset(Dataset):
 
         # Eingabesequenz in Zeichen-Indizes konvertieren
         input_vector = [self.char_to_index.get(c, 0) for c in input_text[:self.max_input_len]]
+        print("Input indices:", input_vector)
         input_vector += [0] * (self.max_input_len - len(input_vector))  # Padding
 
         # Zielsequenz erstellen und mit "|" trennen
@@ -75,8 +72,8 @@ class Seq2SeqModel(nn.Module):
 data_file = 'training_data.json'
 char_to_index, index_to_char = create_vocab(data_file)
 vocab_size = len(char_to_index)
-embed_size = 64
-hidden_size = 128
+embed_size = 128
+hidden_size = 256
 max_input_len = 256
 max_output_len = 128
 

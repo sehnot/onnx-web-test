@@ -25,5 +25,518 @@
       "website": "www.innovatech.de",
       "phone": "+49-89-1234-5678"
     }
+  },
+  {
+    "input": "Anna Schmitt\nVertriebsleitung\nMüller & Söhne GmbH\nwww.mueller-soehne.de\n+49-30-12345-6789",
+    "output": {
+      "name": "Anna Schmitt",
+      "company": "Müller & Söhne GmbH",
+      "website": "www.mueller-soehne.de",
+      "phone": "+49-30-12345-6789"
+    }
+  },
+  {
+    "input": "José Alvarez\nDirector de Ventas\nSoluciones Creativas S.A.\nwww.solucionescreativas.es\n+34-91-123-4567",
+    "output": {
+      "name": "José Alvarez",
+      "company": "Soluciones Creativas S.A.",
+      "website": "www.solucionescreativas.es",
+      "phone": "+34-91-123-4567"
+    }
+  },
+  {
+    "input": "Olof Persson\nCFO\nSvenska AB\nwww.svenska.se\n+46-8-555-1234",
+    "output": {
+      "name": "Olof Persson",
+      "company": "Svenska AB",
+      "website": "www.svenska.se",
+      "phone": "+46-8-555-1234"
+    }
+  },
+  {
+    "input": "Marie Curie\nResearch Scientist\nAtomic Solutions\nwww.atomic-solutions.org\n+1-212-555-6789",
+    "output": {
+      "name": "Marie Curie",
+      "company": "Atomic Solutions",
+      "website": "www.atomic-solutions.org",
+      "phone": "+1-212-555-6789"
+    }
+  },
+  {
+    "input": "Jean Dupont\nDirecteur Commercial\nÉnergies Vertes SARL\nwww.energiesvertes.fr\n+33-1-23-45-67-89",
+    "output": {
+      "name": "Jean Dupont",
+      "company": "Énergies Vertes SARL",
+      "website": "www.energiesvertes.fr",
+      "phone": "+33-1-23-45-67-89"
+    }
+  },
+  {
+    "input": "Patricia O'Connor\nHead of Marketing\nEmerald Media\nwww.emeraldmedia.ie\n+353-1-555-1234",
+    "output": {
+      "name": "Patricia O'Connor",
+      "company": "Emerald Media",
+      "website": "www.emeraldmedia.ie",
+      "phone": "+353-1-555-1234"
+    }
+  },
+  {
+    "input": "Matti Virtanen\nCTO\nSuomiTech Oy\nwww.suomitech.fi\n+358-40-123-4567",
+    "output": {
+      "name": "Matti Virtanen",
+      "company": "SuomiTech Oy",
+      "website": "www.suomitech.fi",
+      "phone": "+358-40-123-4567"
+    }
+  },
+  {
+    "input": "Sarah van den Berg\nHR Manager\nGlobal Ventures BV\nwww.globalventures.nl\n+31-20-1234567",
+    "output": {
+      "name": "Sarah van den Berg",
+      "company": "Global Ventures BV",
+      "website": "www.globalventures.nl",
+      "phone": "+31-20-1234567"
+    }
+  },
+  {
+    "input": "Ahmed Al-Farsi\nProject Manager\nOasis Solutions\nwww.oasissolutions.ae\n+971-4-123-4567",
+    "output": {
+      "name": "Ahmed Al-Farsi",
+      "company": "Oasis Solutions",
+      "website": "www.oasissolutions.ae",
+      "phone": "+971-4-123-4567"
+    }
+  },
+  {
+    "input": "Eleni Papadopoulos\nCEO\nHellas Innovations SA\nwww.hellasinnovations.gr\n+30-21-1234-5678",
+    "output": {
+      "name": "Eleni Papadopoulos",
+      "company": "Hellas Innovations SA",
+      "website": "www.hellasinnovations.gr",
+      "phone": "+30-21-1234-5678"
+    }
+  },
+  {
+    "input": "Lucas Ribeiro\nCoordenador de TI\nSolucões Avançadas LTDA\nwww.solucõesavançadas.com.br\n+55-11-98765-4321",
+    "output": {
+      "name": "Lucas Ribeiro",
+      "company": "Solucões Avançadas LTDA",
+      "website": "www.solucõesavançadas.com.br",
+      "phone": "+55-11-98765-4321"
+    }
+  },
+  {
+    "input": "Chloe Johnson\nCreative Director\nBright Ideas Ltd.\nwww.brightideas.co.uk\n+44-161-123-4567",
+    "output": {
+      "name": "Chloe Johnson",
+      "company": "Bright Ideas Ltd.",
+      "website": "www.brightideas.co.uk",
+      "phone": "+44-161-123-4567"
+    }
+  },
+  {
+    "input": "René Dubois\nIngénieur Principal\nSolutions Techniques SA\nwww.soltech.ch\n+41-22-123-4567",
+    "output": {
+      "name": "René Dubois",
+      "company": "Solutions Techniques SA",
+      "website": "www.soltech.ch",
+      "phone": "+41-22-123-4567"
+    }
+  },
+  {
+    "input": "Fatima Khan\nGeneral Manager\nFuture Visions Pvt Ltd\nwww.futurevisions.pk\n+92-21-123-4567",
+    "output": {
+      "name": "Fatima Khan",
+      "company": "Future Visions Pvt Ltd",
+      "website": "www.futurevisions.pk",
+      "phone": "+92-21-123-4567"
+    }
+  },
+  {
+    "input": "Taro Yamada\nSales Executive\nNihon Tech Co.\nwww.nihontech.jp\n+81-3-1234-5678",
+    "output": {
+      "name": "Taro Yamada",
+      "company": "Nihon Tech Co.",
+      "website": "www.nihontech.jp",
+      "phone": "+81-3-1234-5678"
+    }
+  },
+  {
+    "input": "Aisha Omar\nDirector of Strategy\nSahara Ventures\nwww.saharaventures.com.ng\n+234-1-123-4567",
+    "output": {
+      "name": "Aisha Omar",
+      "company": "Sahara Ventures",
+      "website": "www.saharaventures.com.ng",
+      "phone": "+234-1-123-4567"
+    }
+  },
+  {
+    "input": "Hansjörg Klee\nLeiter IT\nBergTech GmbH\nwww.bergtech.at\n+43-1-2345-6789",
+    "output": {
+      "name": "Hansjörg Klee",
+      "company": "BergTech GmbH",
+      "website": "www.bergtech.at",
+      "phone": "+43-1-2345-6789"
+    }
+  },
+  {
+    "input": "Eva Nováková\nProjektová Manažerka\nČeská Inovace s.r.o.\nwww.ceska-inovace.cz\n+420-123-456-789",
+    "output": {
+      "name": "Eva Nováková",
+      "company": "Česká Inovace s.r.o.",
+      "website": "www.ceska-inovace.cz",
+      "phone": "+420-123-456-789"
+    }
+  },
+  {
+    "input": "Jürgen Hoffmann\nHead of Sales\nAlpen Logistics\nwww.alpenlogistics.de\n+49-89-9876-5432",
+    "output": {
+      "name": "Jürgen Hoffmann",
+      "company": "Alpen Logistics",
+      "website": "www.alpenlogistics.de",
+      "phone": "+49-89-9876-5432"
+    }
+  },
+  {
+    "input": "Alice Moretti\nResponsabile Vendite\nSoluzioni Avanzate SRL\nwww.soluzioniavanzate.it\n+39-06-1234-5678",
+    "output": {
+      "name": "Alice Moretti",
+      "company": "Soluzioni Avanzate SRL",
+      "website": "www.soluzioniavanzate.it",
+      "phone": "+39-06-1234-5678"
+    }
+  },
+  {
+    "input": "Zoran Petrović\nDirektor\nBalkan Solutions DOO\nwww.balkansolutions.rs\n+381-11-123-4567",
+    "output": {
+      "name": "Zoran Petrović",
+      "company": "Balkan Solutions DOO",
+      "website": "www.balkansolutions.rs",
+      "phone": "+381-11-123-4567"
+    }
+  },
+  {
+    "input": "Sofia Hernández\nConsultora Senior\nInnovación y Desarrollo SA\nwww.innovacionydesarrollo.mx\n+52-55-1234-5678",
+    "output": {
+      "name": "Sofia Hernández",
+      "company": "Innovación y Desarrollo SA",
+      "website": "www.innovacionydesarrollo.mx",
+      "phone": "+52-55-1234-5678"
+    }
+  },
+  {
+    "input": "Dimitris Angelopoulos\nLead Engineer\nAthenaTech\nwww.athenatech.gr\n+30-210-1234567",
+    "output": {
+      "name": "Dimitris Angelopoulos",
+      "company": "AthenaTech",
+      "website": "www.athenatech.gr",
+      "phone": "+30-210-1234567"
+    }
+  },
+  {
+    "input": "Khalid Mustafa\nBusiness Analyst\nVisionTech Solutions\nwww.visiontech.qa\n+974-4412-3456",
+    "output": {
+      "name": "Khalid Mustafa",
+      "company": "VisionTech Solutions",
+      "website": "www.visiontech.qa",
+      "phone": "+974-4412-3456"
+    }
+  },
+  {
+    "input": "Sandra Nogueira\nEngenheira Chefe\nTecnologia Global LTDA\nwww.tecnologiaglobal.com.br\n+55-21-98765-4321",
+    "output": {
+      "name": "Sandra Nogueira",
+      "company": "Tecnologia Global LTDA",
+      "website": "www.tecnologiaglobal.com.br",
+      "phone": "+55-21-98765-4321"
+    }
+  },
+  {
+    "input": "Tomáš Vlček\nAnalytik IT\nIT Řešení a.s.\nwww.itreseni.cz\n+420-222-345-678",
+    "output": {
+      "name": "Tomáš Vlček",
+      "company": "IT Řešení a.s.",
+      "website": "www.itreseni.cz",
+      "phone": "+420-222-345-678"
+    }
+  },
+  {
+    "input": "Chandrika Sharma\nOperations Manager\nTechNova Pvt. Ltd.\nwww.technova.in\n+91-22-1234-5678",
+    "output": {
+      "name": "Chandrika Sharma",
+      "company": "TechNova Pvt. Ltd.",
+      "website": "www.technova.in",
+      "phone": "+91-22-1234-5678"
+    }
+  },
+  {
+    "input": "Fatoumata Diop\nSpécialiste en Logistique\nAfrique Logistique SARL\nwww.afriquelogistique.sn\n+221-33-123-4567",
+    "output": {
+      "name": "Fatoumata Diop",
+      "company": "Afrique Logistique SARL",
+      "website": "www.afriquelogistique.sn",
+      "phone": "+221-33-123-4567"
+    }
+  },
+  {
+    "input": "Max Mustermann\nGeschäftsführer\nMustermann GmbH\n---\nTel.: +49 30 123 456 789\nFax: +49 30 123 456 790\nwww.mustermann.de",
+    "output": {
+      "name": "Max Mustermann",
+      "company": "Mustermann GmbH",
+      "website": "www.mustermann.de",
+      "phone": "+49 30 123 456 789"
+    }
+  },
+  {
+    "input": "Sabine Meyer\nTeamleitung Marketing\nMeyer & Partner KG\nTel.: +49 (0)40 987 654 321\nFax: +49 (0)40 987 654 322\nhttps://www.meyer-partner.de",
+    "output": {
+      "name": "Sabine Meyer",
+      "company": "Meyer & Partner KG",
+      "website": "https://www.meyer-partner.de",
+      "phone": "+49 (0)40 987 654 321"
+    }
+  },
+  {
+    "input": "Dr. Hans Günther\nLeiter Forschung & Entwicklung\nInnovatech AG\nTel.: +49 89 1234 5678-0\n---\nFax: +49 89 1234 5678-99\nWeb: www.innovatech.de",
+    "output": {
+      "name": "Dr. Hans Günther",
+      "company": "Innovatech AG",
+      "website": "www.innovatech.de",
+      "phone": "+49 89 1234 5678-0"
+    }
+  },
+  {
+    "input": "Julia Fischer\nAssistentin der Geschäftsführung\nFischer & Co.\nTel. +49 351 9876 5432\nFax +49 351 9876 5433\nwww.fischer-co.com",
+    "output": {
+      "name": "Julia Fischer",
+      "company": "Fischer & Co.",
+      "website": "www.fischer-co.com",
+      "phone": "+49 351 9876 5432"
+    }
+  },
+  {
+    "input": "Frank Weiß\nIT-Support\nTechNet GmbH\nwww.technet.de\nTel.: +49 (0)89 7654 321\nFax: +49 (0)89 7654 322",
+    "output": {
+      "name": "Frank Weiß",
+      "company": "TechNet GmbH",
+      "website": "www.technet.de",
+      "phone": "+49 (0)89 7654 321"
+    }
+  },
+  {
+    "input": "Lena Schröder\nProjektmanagerin\nKreativDesign GmbH & Co. KG\nWeb: www.kreativdesign.de\nTel.: +49 421 123 4567-89\nFax: +49 421 123 4567-90",
+    "output": {
+      "name": "Lena Schröder",
+      "company": "KreativDesign GmbH & Co. KG",
+      "website": "www.kreativdesign.de",
+      "phone": "+49 421 123 4567-89"
+    }
+  },
+  {
+    "input": "Markus Schmitt\nVertrieb\nAutohaus Schmitt GmbH\nwww.autohaus-schmitt.de\nTel.: 0621 5678 1234\nFax: 0621 5678 1235",
+    "output": {
+      "name": "Markus Schmitt",
+      "company": "Autohaus Schmitt GmbH",
+      "website": "www.autohaus-schmitt.de",
+      "phone": "0621 5678 1234"
+    }
+  },
+  {
+    "input": "Petra König\nKundensupport\nBestSolutions AG\nTel. +49 211 9876 4321\nFax: +49 211 9876 4322\nWeb: bestsolutions.de",
+    "output": {
+      "name": "Petra König",
+      "company": "BestSolutions AG",
+      "website": "bestsolutions.de",
+      "phone": "+49 211 9876 4321"
+    }
+  },
+  {
+    "input": "Johann Berger\nGeschäftsführer\nBerger Logistik GmbH\n---\nTel.: +49 30 123456-78\nFax: +49 30 123456-79\nWeb: www.berger-logistik.de",
+    "output": {
+      "name": "Johann Berger",
+      "company": "Berger Logistik GmbH",
+      "website": "www.berger-logistik.de",
+      "phone": "+49 30 123456-78"
+    }
+  },
+  {
+    "input": "Ursula Klein\nHR Managerin\nPersonalPlus GmbH\nTel.: +49 (0)89 1234567\nFax: +49 (0)89 1234568\nwww.personalplus.de",
+    "output": {
+      "name": "Ursula Klein",
+      "company": "PersonalPlus GmbH",
+      "website": "www.personalplus.de",
+      "phone": "+49 (0)89 1234567"
+    }
+  },
+  {
+    "input": "René Müller\nSoftwareentwicklung\nCodeFactory KG\nTel: +49 511 567 890\nFax: +49 511 567 891\nWebsite: www.codefactory.de",
+    "output": {
+      "name": "René Müller",
+      "company": "CodeFactory KG",
+      "website": "www.codefactory.de",
+      "phone": "+49 511 567 890"
+    }
+  },
+  {
+    "input": "Carla Schmidt\nMarketing\nSchmidt und Partner GbR\n---\nTel.: 040-123456\nFax: 040-654321\nwww.schmidt-partner.de",
+    "output": {
+      "name": "Carla Schmidt",
+      "company": "Schmidt und Partner GbR",
+      "website": "www.schmidt-partner.de",
+      "phone": "040-123456"
+    }
+  },
+  {
+    "input": "Hannes Baumgartner\nGeschäftsführer\nBaumgartner GmbH\nTel.: +43 1 2345 6789\nWeb: www.baumgartner.at",
+    "output": {
+      "name": "Hannes Baumgartner",
+      "company": "Baumgartner GmbH",
+      "website": "www.baumgartner.at",
+      "phone": "+43 1 2345 6789"
+    }
+  },
+  {
+    "input": "Kathrin Meier\nProjektleiterin\nMeier & Partner AG\nTel.: +41 44 123 4567\nWeb: www.meier-partner.ch",
+    "output": {
+      "name": "Kathrin Meier",
+      "company": "Meier & Partner AG",
+      "website": "www.meier-partner.ch",
+      "phone": "+41 44 123 4567"
+    }
+  },
+  {
+    "input": "Thomas Hofer\nLeiter Vertrieb\nAlpenTech GmbH\nTel.: +43 512 987 654\nWeb: www.alpentech.at",
+    "output": {
+      "name": "Thomas Hofer",
+      "company": "AlpenTech GmbH",
+      "website": "www.alpentech.at",
+      "phone": "+43 512 987 654"
+    }
+  },
+  {
+    "input": "Daniela Keller\nMarketing Managerin\nKeller Solutions AG\nTel.: +41 31 567 8901\nWeb: www.kellersolutions.ch",
+    "output": {
+      "name": "Daniela Keller",
+      "company": "Keller Solutions AG",
+      "website": "www.kellersolutions.ch",
+      "phone": "+41 31 567 8901"
+    }
+  },
+  {
+    "input": "Florian Huber\nKundensupport\nTechSupport GmbH\nTel.: +43 662 123 456\nWeb: www.techsupport.at",
+    "output": {
+      "name": "Florian Huber",
+      "company": "TechSupport GmbH",
+      "website": "www.techsupport.at",
+      "phone": "+43 662 123 456"
+    }
+  },
+  {
+    "input": "Elisabeth Frei\nHR-Managerin\nFrei & Co AG\nTel.: +41 71 987 6543\nWeb: www.frei-co.ch",
+    "output": {
+      "name": "Elisabeth Frei",
+      "company": "Frei & Co AG",
+      "website": "www.frei-co.ch",
+      "phone": "+41 71 987 6543"
+    }
+  },
+  {
+    "input": "Simon Gruber\nSoftwareentwickler\nCodeTech GmbH\nTel.: +43 316 123 987\nWeb: www.codetech.at",
+    "output": {
+      "name": "Simon Gruber",
+      "company": "CodeTech GmbH",
+      "website": "www.codetech.at",
+      "phone": "+43 316 123 987"
+    }
+  },
+  {
+    "input": "Sarah Müller\nProjektassistenz\nProjekte Müller AG\nTel.: +41 61 345 6789\nWeb: www.projekte-mueller.ch",
+    "output": {
+      "name": "Sarah Müller",
+      "company": "Projekte Müller AG",
+      "website": "www.projekte-mueller.ch",
+      "phone": "+41 61 345 6789"
+    }
+  },
+  {
+    "input": "Martin Egger\nIT-Leiter\nEgger IT GmbH\nTel.: +43 1 6789 1234\nWeb: www.egger-it.at",
+    "output": {
+      "name": "Martin Egger",
+      "company": "Egger IT GmbH",
+      "website": "www.egger-it.at",
+      "phone": "+43 1 6789 1234"
+    }
+  },
+  {
+    "input": "Anna Steiner\nGeschäftsleitung\nSteiner & Co AG\nTel.: +41 81 987 1234\nWeb: www.steiner-co.ch",
+    "output": {
+      "name": "Anna Steiner",
+      "company": "Steiner & Co AG",
+      "website": "www.steiner-co.ch",
+      "phone": "+41 81 987 1234"
+    }
+  },
+  {
+    "input": "Sebastian Hofer\nProduktmanager\nHoferTech GmbH\nTel.: +43 732 456 789\nWeb: www.hofertech.at",
+    "output": {
+      "name": "Sebastian Hofer",
+      "company": "HoferTech GmbH",
+      "website": "www.hofertech.at",
+      "phone": "+43 732 456 789"
+    }
+  },
+  {
+    "input": "Nicole Baumann\nHR-Spezialistin\nBaumann Solutions AG\nTel.: +41 41 123 4567\nWeb: www.baumann-solutions.ch",
+    "output": {
+      "name": "Nicole Baumann",
+      "company": "Baumann Solutions AG",
+      "website": "www.baumann-solutions.ch",
+      "phone": "+41 41 123 4567"
+    }
+  },
+  {
+    "input": "Patrick Meier\nCEO\nMeierTech AG\nTel.: +41 52 567 8901\nWeb: www.meiertech.ch",
+    "output": {
+      "name": "Patrick Meier",
+      "company": "MeierTech AG",
+      "website": "www.meiertech.ch",
+      "phone": "+41 52 567 8901"
+    }
+  },
+  {
+    "input": "Claudia Berger\nHead of Marketing\nBerger Consulting GmbH\nTel.: +43 5574 123 456\nWeb: www.berger-consulting.at",
+    "output": {
+      "name": "Claudia Berger",
+      "company": "Berger Consulting GmbH",
+      "website": "www.berger-consulting.at",
+      "phone": "+43 5574 123 456"
+    }
+  },
+  {
+    "input": "Jan Fischer\nVertriebsleiter\nFischer & Partner GmbH\nTel.: +43 463 567 123\nWeb: www.fischer-partner.at",
+    "output": {
+      "name": "Jan Fischer",
+      "company": "Fischer & Partner GmbH",
+      "website": "www.fischer-partner.at",
+      "phone": "+43 463 567 123"
+    }
+  },
+  {
+    "input": "Laura Wenger\nTeamleitung Support\nWenger IT AG\nTel.: +41 55 789 4561\nWeb: www.wenger-it.ch",
+    "output": {
+      "name": "Laura Wenger",
+      "company": "Wenger IT AG",
+      "website": "www.wenger-it.ch",
+      "phone": "+41 55 789 4561"
+    }
+  },
+  {
+    "input": "Mark Weber\nFinance Manager\nWeber Finanz GmbH\nTel.: +43 662 987 654\nWeb: www.weber-finanz.at",
+    "output": {
+      "name": "Mark Weber",
+      "company": "Weber Finanz GmbH",
+      "website": "www.weber-finanz.at",
+      "phone": "+43 662 987 654"
+    }
   }
 ]
